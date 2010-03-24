@@ -1,6 +1,6 @@
-rekonq (0.3.90-1) UNRELEASED; urgency=low
+rekonq (0.4.0-1) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #522396)
   * TODO : copyright
 
- -- Xavier Vello <xavier.vello@gmail.com>  Mon, 01 Mar 2010 12:36:00 +0100
+ -- Xavier Vello <xavier.vello@gmail.com>  Wed, 24 Mar 2010 15:02:25 +0100
