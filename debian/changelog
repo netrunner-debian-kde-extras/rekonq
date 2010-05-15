@@ -3,4 +3,6 @@ rekonq (0.4.0-1) UNRELEASED; urgency=low
   * Initial release. (Closes: #522396)
   * TODO : copyright
 
+  * Feel free to take over this package and its ITP (#522396)
+
  -- Xavier Vello <xavier.vello@gmail.com>  Wed, 24 Mar 2010 15:02:25 +0100
