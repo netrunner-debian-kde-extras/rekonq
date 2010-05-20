@@ -1,2 +1,2 @@
 version=3
-http://sf.net/rekonq/rekonq-(.+)\.tar\.gz
+http://sf.net/rekonq/rekonq-([\d.]+)\.tar\.(?:bz2|gz)
