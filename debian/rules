@@ -1,11 +1,4 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/makefiles/1/cdbs/kde.mk
-include /usr/share/cdbs/1/rules/debhelper.mk
-
-DEB_DH_INSTALL_SOURCEDIR := debian/tmp
-
-get-orig-source::
-	@@dh_testdir
-	@@[ -d ../tarballs/. ]||mkdir -p ../tarballs
-	@@uscan --force-download --repack --destdir ../tarballs
+%:
+	dh --with kde $@
