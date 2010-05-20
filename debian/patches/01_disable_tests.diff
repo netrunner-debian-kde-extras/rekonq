@@ -1,0 +1,13 @@
+Index: rekonq-0.3.90/src/CMakeLists.txt
+===================================================================
+--- rekonq-0.3.90.orig/src/CMakeLists.txt	2010-02-27 14:56:25.980811971 -0500
++++ rekonq-0.3.90/src/CMakeLists.txt	2010-02-27 14:56:32.081823537 -0500
+@@ -1,7 +1,7 @@
+ ### ------- sub dirs -------
+ 
+ ADD_SUBDIRECTORY( data )
+-ADD_SUBDIRECTORY( tests )
++#ADD_SUBDIRECTORY( tests )
+ 
+ 
+ ### ------- SETTING REKONQ FILES..

@@ -1,8 +1,133 @@
 rekonq (0.4.0-1) UNRELEASED; urgency=low
 
-  * Initial release. (Closes: #522396)
-  * TODO : copyright
+  * Upload to Debian. (Closes: #522396)
 
-  * Feel free to take over this package and its ITP (#522396)
+ -- Felix Geyer <debfx-pkg@fobos.de>  Thu, 20 May 2010 12:28:59 +0200
 
- -- Xavier Vello <xavier.vello@gmail.com>  Wed, 24 Mar 2010 15:02:25 +0100
+rekonq (0.4.0-0ubuntu2) maverick; urgency=low
+
+  * Add cmake to build-dependencies as kdelibs5-dev no longer depends on it.
+  * Register as x-www-browser alternative. (LP: #567211)
+    - Add debian/rekonq.postinst and debian/rekonq.prerm
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Wed, 19 May 2010 00:49:10 +0200
+
+rekonq (0.4.0-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 12 Mar 2010 08:35:40 -0500
+
+rekonq (0.3.90-0ubuntu4) lucid; urgency=low
+
+  * Fixed debian/control again:
+    - rekonq depends on kdebase-bin, not konq-plugins...
+
+ -- Anthony Mercatante <tonio@ubuntu.com>  Wed, 10 Mar 2010 23:58:12 +0100
+
+rekonq (0.3.90-0ubuntu3) lucid; urgency=low
+
+  * Fixed debian/control:
+    - Recommends konq-plugins
+
+ -- Anthony Mercatante <tonio@ubuntu.com>  Wed, 10 Mar 2010 23:49:42 +0100
+
+rekonq (0.3.90-0ubuntu2) lucid; urgency=low
+
+  * Make the rekonq package provide www-browser (LP: #523141)
+  * Bump Standards-Version to 3.8.4
+  * Convert packaging to source format 3.0 (quilt), remove quilt build-dep,
+    quilt addon in debian/rules, and README.source
+  * Bump debhelper build-depend version to 7.3.16, and pkg-kde-tool to 0.5.0
+    for the above
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Sat, 27 Feb 2010 14:25:06 -0500
+
+rekonq (0.3.90-0ubuntu4) lucid; urgency=low
+
+  * Fixed debian/control again:
+    - rekonq depends on kdebase-bin, not konq-plugins...
+
+ -- Anthony Mercatante <tonio@ubuntu.com>  Wed, 10 Mar 2010 23:58:12 +0100
+
+rekonq (0.3.90-0ubuntu3) lucid; urgency=low
+
+  * Fixed debian/control:
+    - Recommends konq-plugins
+
+ -- Anthony Mercatante <tonio@ubuntu.com>  Wed, 10 Mar 2010 23:49:42 +0100
+
+rekonq (0.3.90-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+  * Drop kubuntu_01_polish_config_dialog.diff
+  * Renamed kubuntu_01_disable_tests.diff to
+    kubuntu_01_disable_tests.diff
+
+ -- Anthony Mercatante <tonio@ubuntu.com>  Fri, 12 Feb 2010 16:42:44 -0500
+
+rekonq (0.3.0-0ubuntu3) lucid; urgency=low
+
+  * Add missing epoch to Qt build-depends version
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Nov 2009 13:47:10 +0000
+
+rekonq (0.3.0-0ubuntu2) lucid; urgency=low
+
+  * Rebuild against Qt 4.6 rc 1, which is binary incompatible with 4.6
+    beta
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 24 Nov 2009 09:00:03 +0000
+
+rekonq (0.3.0-0ubuntu1) lucid; urgency=low
+
+  * New upstream release:
+    - Disable tests with kubuntu_02_disable_tests.diff. We have no interest
+      in these and they cause an FTBFS inside the chroot.
+  * Transition from kde.mk to dh --with-kde:
+    - debian/control: Remove cdbs build-dependency
+    - debian/rules: Build with the dh7 kde and quilt addons
+  * Add README.source for quilt
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Wed, 18 Nov 2009 12:29:25 -0500
+
+rekonq (0.2.90-0ubuntu1) lucid; urgency=low
+
+  * New upstream beta release
+  * Add kubuntu_01_polish_config_dialog.diff to polish up the config dialog.
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Tue, 03 Nov 2009 17:15:00 -0500
+
+rekonq (0.2.0-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+  * Bump Standards-Version to 3.8.3
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 21 Aug 2009 16:00:05 -0400
+
+rekonq (0.1.98-0ubuntu1) karmic; urgency=low
+
+  * New upstream release (LP: #413169)
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Thu, 13 Aug 2009 18:23:47 +0200
+
+rekonq (0.1.95-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+  * Bump Standards-Version to 3.8.2
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Mon, 03 Aug 2009 12:39:22 -0400
+
+rekonq (0.1-0ubuntu2) karmic; urgency=low
+
+  * Fixed debian/copyright:
+    - Fixed authors list, as some copyrighted code is from Arora and
+      Arora authors shouldn't be mentionned as upstream 
+
+ -- Anthony Mercatante <tonio@ubuntu.com>  Tue, 02 Jun 2009 19:18:26 +0200
+
+rekonq (0.1-0ubuntu1) karmic; urgency=low
+
+  * Initial release
+
+ -- Anthony Mercatante <tonio@ubuntu.com>  Mon, 2 May 2009 06:52:11 +0200

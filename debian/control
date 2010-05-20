@@ -4,20 +4,23 @@ Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Build-Depends: debhelper (>= 7.3.16),
                pkg-kde-tools (>= 0.5.0),
-               kdelibs5-dev (>= 4:4.4.0)
+               cmake,
+               docbook2x,
+               kdelibs5-dev
 Standards-Version: 3.8.4
 Homepage: http://rekonq.sourceforge.net/
 
 Package: rekonq
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: A lightweight, WebKit based web browser for KDE
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-bin
+Provides: www-browser
+Description: KDE web browser based on Webkit
  rekonq is a web browser based on WebKit and the KDE technologies.
  Its aim is to integrate nicely in the KDE desktop while providing
  a lightweight experience.
  .
  Non-exhaustive list of features :
-   - shares bookmarks and network settings with konqueror
-   - uses the kwallet password manager
-   - integrates with the kget download manager
-   - anonymous browsing mode
+  - shares bookmarks and network settings with konqueror
+  - uses the kwallet password manager
+  - integrates with the kget download manager
+  - anonymous browsing mode
