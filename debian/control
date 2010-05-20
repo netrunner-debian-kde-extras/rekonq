@@ -2,6 +2,7 @@ Source: rekonq
 Section: web
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Felix Geyer <debfx-pkg@fobos.de>
 Build-Depends: debhelper (>= 7.3.16),
                pkg-kde-tools (>= 0.5.0),
                cmake,
