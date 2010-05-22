@@ -7,8 +7,9 @@ rekonq (0.4.0-1) UNRELEASED; urgency=low
     - Drop debian/patches
   * Enable parallel building.
   * Update debian/copyright.
+  * Provide a debug package.
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Sun, 23 May 2010 00:53:12 +0200
+ -- Felix Geyer <debfx-pkg@fobos.de>  Sun, 23 May 2010 01:21:12 +0200
 
 rekonq (0.4.0-0ubuntu2) maverick; urgency=low
 

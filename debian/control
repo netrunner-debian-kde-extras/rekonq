@@ -26,3 +26,14 @@ Description: KDE web browser based on Webkit
   - uses the kwallet password manager
   - integrates with the kget download manager
   - anonymous browsing mode
+
+Package: rekonq-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends}, rekonq (= ${binary:Version})
+Recommends: kdelibs5-dbg
+Description: debugging symbols for rekonq
+ This package contains the debugging symbols associated with rekonq.
+ They will automatically be used by gdb for debugging rekonq-related
+ issues.
