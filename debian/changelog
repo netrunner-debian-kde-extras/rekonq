@@ -1,4 +1,4 @@
-rekonq (0.4.0-1) UNRELEASED; urgency=low
+rekonq (0.4.0-1) unstable; urgency=low
 
   * Upload to Debian. (Closes: #522396)
   * Set maintainer to Debian KDE Extras Team and add myself to uploaders.
