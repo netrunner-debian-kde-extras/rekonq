@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 7.3.16~),
                pkg-config,
                kdelibs5-dev,
                libgtk2.0-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.0
 Homepage: http://rekonq.sourceforge.net/
 Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/rekonq/trunk
 Vcs-Browser: http://svn.debian.org/viewsvn/pkg-kde/kde-extras/rekonq/trunk/
