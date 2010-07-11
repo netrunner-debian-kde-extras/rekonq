@@ -30,6 +30,10 @@ Copyright:
     Copyright (C) 2008, Michael Howell <mhowell123@gmail.com>
     Copyright (C) 2009, by Yoram Bar-Haim <<yoram.b at zend dot com>
     Copyright (C) 2009, Zsombor Gegesy <gzsombor@gmail.com>
+    Copyright (C) 2010, Yoann Laissus <yoann dot laissus at gmail dot com>
+    Copyright (C) 2000-2003, George Staikos <staikos@kde.org>
+    Copyright (C) 2000, Malte Starostik <malte@kde.org>
+    Copyright (C) 2009, Dawit Alemayehu <adawit@kde.org>
 
 License:
 
@@ -38,7 +42,7 @@ License:
     published by the Free Software Foundation; either version 2 of
     the License or (at your option) version 3 or any later version
     accepted by the membership of KDE e.V. (or its successor approved
-    by the membership of KDE e.V.), which shall act as a proxy 
+    by the membership of KDE e.V.), which shall act as a proxy
     defined in Section 14 of version 3 of the license.
 
     This program is distributed in the hope that it will be useful,
