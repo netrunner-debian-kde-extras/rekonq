@@ -1,3 +1,9 @@
+rekonq (0.5.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Sun, 11 Jul 2010 12:45:35 +0200
+
 rekonq (0.4.0-1) unstable; urgency=low
 
   * Upload to Debian. (Closes: #522396)
