@@ -6,7 +6,9 @@ Uploaders: Felix Geyer <debfx-pkg@fobos.de>
 Build-Depends: debhelper (>= 7.3.16~),
                pkg-kde-tools (>= 0.5.0~),
                cmake,
-               kdelibs5-dev
+               pkg-config,
+               kdelibs5-dev,
+               libgtk2.0-dev
 Standards-Version: 3.8.4
 Homepage: http://rekonq.sourceforge.net/
 Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/rekonq/trunk
