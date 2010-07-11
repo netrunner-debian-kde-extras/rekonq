@@ -2,8 +2,9 @@ rekonq (0.5.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Bump Standards-Version to 3.9.0, no changes needed.
+  * Add "-Wl,--as-needed" to LDFLAGS.
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Sun, 11 Jul 2010 12:48:53 +0200
+ -- Felix Geyer <debfx-pkg@fobos.de>  Sun, 11 Jul 2010 12:51:01 +0200
 
 rekonq (0.4.0-1) unstable; urgency=low
 

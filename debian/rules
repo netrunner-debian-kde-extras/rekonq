@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+LDFLAGS += -Wl,--as-needed
+
 %:
 	dh --parallel --with kde $@
 
@@ -7,4 +9,4 @@ override_dh_strip:
 	dh_strip --dbg-package=rekonq-dbg
 
 override_dh_auto_test:
-	# disable tests for now
+	# disable tests as they require a running X server
