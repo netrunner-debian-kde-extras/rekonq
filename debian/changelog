@@ -1,4 +1,4 @@
-rekonq (0.5.0-1) UNRELEASED; urgency=low
+rekonq (0.5.0-1) unstable; urgency=low
 
   * New upstream release.
   * Bump Standards-Version to 3.9.0, no changes needed.
