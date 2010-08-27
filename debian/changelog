@@ -1,3 +1,9 @@
+rekonq (0.5.0-3) UNRELEASED; urgency=low
+
+  * Point Vcs fields to the git repository.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 27 Aug 2010 19:39:17 +0200
+
 rekonq (0.5.0-2) unstable; urgency=medium
 
   * Fix CVE-2010-2536: multiple XSS vulnerabilities (Closes: #593300)
