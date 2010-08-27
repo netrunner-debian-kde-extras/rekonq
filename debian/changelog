@@ -1,4 +1,4 @@
-rekonq (0.5.0-2) UNRELEASED; urgency=medium
+rekonq (0.5.0-2) unstable; urgency=medium
 
   * Fix CVE-2010-2536: multiple XSS vulnerabilities (Closes: #593300)
     - Add CVE-2010-2536_fix_xss_vulnerabilities.diff
