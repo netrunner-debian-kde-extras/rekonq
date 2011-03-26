@@ -16,6 +16,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/rekonq.git
 Package: rekonq
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-bin
+Suggests: kget
 Provides: www-browser
 Description: KDE web browser based on Webkit
  rekonq is a web browser based on WebKit and the KDE technologies.

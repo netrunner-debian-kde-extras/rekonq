@@ -8,6 +8,7 @@ rekonq (0.6.95-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.1, no changes needed.
   * Switch to debhelper compat level 8.
   * Set homepage to http://rekonq.kde.org/.
+  * Add kget as a suggests of rekonq.
 
  -- Felix Geyer <debfx-pkg@fobos.de>  Sat, 26 Mar 2011 18:28:18 +0100
 
