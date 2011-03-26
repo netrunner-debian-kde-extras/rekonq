@@ -2,6 +2,7 @@ rekonq (0.6.95-1) UNRELEASED; urgency=low
 
   * New upstream release. (Closes: #618906)
   * Point Vcs fields to the git repository.
+  * Add build dependency on libqtwebkit-dev. (Closes: #611270)
 
  -- Felix Geyer <debfx-pkg@fobos.de>  Sat, 26 Mar 2011 18:28:18 +0100
 
