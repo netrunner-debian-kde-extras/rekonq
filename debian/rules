@@ -3,7 +3,7 @@
 LDFLAGS += -Wl,--as-needed
 
 %:
-	dh --parallel --with kde $@
+	dh $@ --parallel --with kde
 
 override_dh_strip:
 	dh_strip --dbg-package=rekonq-dbg
