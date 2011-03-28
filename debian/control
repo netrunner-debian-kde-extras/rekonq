@@ -34,7 +34,7 @@ Section: debug
 Priority: extra
 Architecture: any
 Depends: ${misc:Depends}, rekonq (= ${binary:Version})
-Recommends: kdelibs5-dbg
+Recommends: kdelibs5-dbg, libqtwebkit4-dbg
 Description: debugging symbols for rekonq
  This package contains the debugging symbols associated with rekonq.
  They will automatically be used by gdb for debugging rekonq-related

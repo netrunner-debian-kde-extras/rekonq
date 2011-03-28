@@ -1,5 +1,6 @@
 rekonq (0.6.95-1) UNRELEASED; urgency=low
 
+  [ Felix Geyer ]
   * New upstream release. (Closes: #618906)
   * Point Vcs fields to the git repository.
   * Add build dependency on libqtwebkit-dev. (Closes: #611270)
@@ -10,6 +11,9 @@ rekonq (0.6.95-1) UNRELEASED; urgency=low
   * Set homepage to http://rekonq.kde.org/.
   * Add kget as a suggests of rekonq.
   * Drop CVE-2010-2536_fix_xss_vulnerabilities.diff, fixed upstream.
+
+  [ José Manuel Santamaría Lema ]
+  * Add libqtwebkit4-dbg to Recommends.
 
  -- Felix Geyer <debfx-pkg@fobos.de>  Sat, 26 Mar 2011 18:28:18 +0100
 
