@@ -1,4 +1,4 @@
-rekonq (0.7.0-0r1) UNRELEASED; urgency=low
+rekonq (0.7.0-0r2) UNRELEASED; urgency=low
 
   * New upstream release. (Closes: #618906)
 
@@ -17,7 +17,7 @@ rekonq (0.7.0-0r1) UNRELEASED; urgency=low
   * Add libqtwebkit4-dbg to Recommends.
   * Add dont_set_app_as_parent.diff; fixes a crash on exit.
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Sat, 26 Mar 2011 18:28:18 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Apr 2011 23:03:43 +0200
 
 rekonq (0.5.0-2) unstable; urgency=medium
 
