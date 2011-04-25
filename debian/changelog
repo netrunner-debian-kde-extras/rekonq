@@ -15,6 +15,7 @@ rekonq (0.7.0-0r1) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Add libqtwebkit4-dbg to Recommends.
+  * Add dont_set_app_as_parent.diff; fixes a crash on exit.
 
  -- Felix Geyer <debfx-pkg@fobos.de>  Sat, 26 Mar 2011 18:28:18 +0100
 
