@@ -16,6 +16,8 @@ rekonq (0.7.0-1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Add libqtwebkit4-dbg to Recommends.
   * Add dont_set_app_as_parent.diff; fixes a crash on exit.
+  * Add fix_history_ordering.diff in order to make history browsing work
+    properly.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Fri, 27 May 2011 10:14:22 +0200
 
