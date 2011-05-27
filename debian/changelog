@@ -1,4 +1,4 @@
-rekonq (0.7.0-1) UNRELEASED; urgency=low
+rekonq (0.7.0-1) unstable; urgency=low
 
   * New upstream release. (Closes: #618906)
 
@@ -20,7 +20,7 @@ rekonq (0.7.0-1) UNRELEASED; urgency=low
   * Add fix_history_ordering.diff in order to make history browsing work
     properly.
 
- -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Fri, 27 May 2011 10:14:22 +0200
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 28 May 2011 00:33:36 +0200
 
 rekonq (0.5.0-2) unstable; urgency=medium
 
