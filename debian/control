@@ -10,6 +10,7 @@ Build-Depends: debhelper (>= 8),
                libqtwebkit-dev
 Standards-Version: 3.9.2
 Homepage: http://rekonq.kde.org/
+DM-Upload-Allowed: yes
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/rekonq.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/rekonq.git
 

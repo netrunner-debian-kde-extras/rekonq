@@ -12,6 +12,7 @@ rekonq (0.7.0-1) UNRELEASED; urgency=low
   * Set homepage to http://rekonq.kde.org/.
   * Add kget as a suggests of rekonq.
   * Drop CVE-2010-2536_fix_xss_vulnerabilities.diff, fixed upstream.
+  * Add DM-Upload-Allowed: yes.
 
   [ José Manuel Santamaría Lema ]
   * Add libqtwebkit4-dbg to Recommends.
