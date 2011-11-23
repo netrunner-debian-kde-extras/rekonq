@@ -1,4 +1,6 @@
-rekonq (0.7.0-2) UNRELEASED; urgency=low
+rekonq (0.8.0-0r0) UNRELEASED; urgency=low
+
+  * New upstream release (Closes: #647903)
 
   [ José Manuel Santamaría Lema ]
   * Add myself to Uploaders.
