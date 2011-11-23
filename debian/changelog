@@ -5,6 +5,9 @@ rekonq (0.8.0-0r0) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Add myself to Uploaders.
   * Bump kdelibs5-dev build depend to 4:4.7.
+  * Remove patches:
+    - dont_set_app_as_parent.diff, applied upstream.
+    - fix_history_ordering.diff, applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 May 2011 01:56:24 +0200
 
