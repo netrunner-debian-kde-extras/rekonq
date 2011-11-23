@@ -1,4 +1,4 @@
-rekonq (0.8.0-0r0) UNRELEASED; urgency=low
+rekonq (0.8.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release (Closes: #647903)
 
@@ -9,7 +9,7 @@ rekonq (0.8.0-0r0) UNRELEASED; urgency=low
     - dont_set_app_as_parent.diff, applied upstream.
     - fix_history_ordering.diff, applied upstream.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 May 2011 01:56:24 +0200
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Wed, 23 Nov 2011 19:02:22 +0100
 
 rekonq (0.7.0-1) unstable; urgency=low
 
