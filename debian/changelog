@@ -8,6 +8,7 @@ rekonq (0.8.0-0r1) UNRELEASED; urgency=low
   * Remove patches:
     - dont_set_app_as_parent.diff, applied upstream.
     - fix_history_ordering.diff, applied upstream.
+  * rekonq binary package depends on kde-baseapps-bin instead of kdebase-bin.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Wed, 23 Nov 2011 19:02:22 +0100
 
