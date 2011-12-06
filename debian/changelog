@@ -1,3 +1,9 @@
+rekonq (0.8.0-2) UNRELEASED; urgency=low
+
+  * Update copyright file.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Tue, 06 Dec 2011 11:21:38 +0100
+
 rekonq (0.8.0-1) experimental; urgency=low
 
   * New upstream release (Closes: #647903)
