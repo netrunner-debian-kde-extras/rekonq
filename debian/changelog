@@ -1,6 +1,8 @@
 rekonq (0.8.0-2) UNRELEASED; urgency=low
 
   * Update copyright file.
+  * Enable hardening build flags.
+    - Switch to debhelper compat level v9.
 
  -- Felix Geyer <debfx-pkg@fobos.de>  Tue, 06 Dec 2011 11:21:38 +0100
 
