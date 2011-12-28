@@ -1,6 +1,5 @@
 rekonq (0.8.1-1) experimental; urgency=low
 
-  [ José Manuel Santamaría Lema ]
   * New upstream release.
 
   [ Felix Geyer ]
@@ -8,7 +7,7 @@ rekonq (0.8.1-1) experimental; urgency=low
   * Enable hardening build flags.
     - Switch to debhelper compat level v9.
 
- -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 24 Dec 2011 13:38:47 +0100
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 27 Dec 2011 01:26:30 +0100
 
 rekonq (0.8.0-1) experimental; urgency=low
 
