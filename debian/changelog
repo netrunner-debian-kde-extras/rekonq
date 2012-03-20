@@ -2,6 +2,7 @@ rekonq (0.9.0-1-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Bump debhelper build depend to 9.
+  * Build depend on pkg-config.
   * Fix watch file.
   * Bump Standards-Version to 3.9.3, no changes needed.
 
