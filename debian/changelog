@@ -1,6 +1,7 @@
 rekonq (0.8.1-2) UNRELEASED; urgency=low
 
   * Bump debhelper build depend to 9.
+  * Fix watch file.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 20 Mar 2012 19:29:38 +0100
 
