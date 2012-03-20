@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9),
                cmake,
                kdelibs5-dev (>= 4:4.7),
                libqtwebkit-dev
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://rekonq.kde.org/
 DM-Upload-Allowed: yes
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/rekonq.git
