@@ -1,12 +1,13 @@
-rekonq (0.9.0-1-1) UNRELEASED; urgency=low
+rekonq (0.9.0-1-1) unstable; urgency=low
 
   * New upstream release.
+  * Upload to unstable.
   * Bump debhelper build depend to 9.
   * Build depend on pkg-config.
   * Fix watch file.
   * Bump Standards-Version to 3.9.3, no changes needed.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 20 Mar 2012 19:29:38 +0100
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 20 Mar 2012 23:06:33 +0100
 
 rekonq (0.8.1-1) experimental; urgency=low
 
