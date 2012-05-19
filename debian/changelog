@@ -1,9 +1,9 @@
-rekonq (0.9.2-1) UNRELEASED; urgency=low
+rekonq (0.9.2-1) unstable; urgency=low
 
   * New upstream release.
   * Bump libqtwebkit-dev build dependency to 2.2.0.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 21 Mar 2012 15:12:30 +0100
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sat, 19 May 2012 16:14:21 +0200
 
 rekonq (0.9.0-1-1) unstable; urgency=low
 
