@@ -1,6 +1,7 @@
 rekonq (1.0-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Add libqca2-dev and libqoauth-dev to Build-Depends.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 25 Jul 2012 15:27:08 +0200
 

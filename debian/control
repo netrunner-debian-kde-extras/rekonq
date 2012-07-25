@@ -9,7 +9,9 @@ Build-Depends: debhelper (>= 9),
                cmake,
                kdelibs5-dev (>= 4:4.7),
                libqtwebkit-dev (>= 2.2.0),
-               pkg-config
+               pkg-config,
+               libqca2-dev,
+               libqoauth-dev
 Standards-Version: 3.9.3
 Homepage: http://rekonq.kde.org/
 DM-Upload-Allowed: yes
