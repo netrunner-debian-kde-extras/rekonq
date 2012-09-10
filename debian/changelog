@@ -1,9 +1,9 @@
-rekonq (1.1-1) UNRELEASED; urgency=low
+rekonq (1.1-1) experimental; urgency=low
 
   * New upstream release.
   * Add shared-desktop-ontologies to Build-Depends.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 10 Sep 2012 12:08:28 +0200
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 10 Sep 2012 17:04:54 +0200
 
 rekonq (1.0-1) experimental; urgency=low
 
