@@ -5,6 +5,9 @@ rekonq (2.2.1-1) UNRELEASED; urgency=low
   [ Felix Geyer ]
   * Remove myself from Uploaders.
 
+  [ José Manuel Santamaría Lema ]
+  * Remove the DM-Upload-Allowed flag, obsolete.
+
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 30 Oct 2012 19:01:21 +0100
 
 rekonq (1.1-1) experimental; urgency=low
