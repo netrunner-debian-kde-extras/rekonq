@@ -1,6 +1,6 @@
-rekonq (1.2-1) UNRELEASED; urgency=low
+rekonq (2.2.1-1) UNRELEASED; urgency=low
 
-  * New upstream release
+  * New upstream release. (Closes: #701202)
 
   [ Felix Geyer ]
   * Remove myself from Uploaders.
